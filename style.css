@@ -239,9 +239,7 @@ footer{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        grid-gap: 15px;
         box-shadow: none;
-        margin-left: 0;
         margin: 0 10px;
         border-radius: none;
         height: auto;
@@ -253,7 +251,8 @@ footer{
         display: flex;
     }
     .icon-prepar{
-        margin: 0;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
         padding: 0;
     }
     .material-symbols-outlined {
