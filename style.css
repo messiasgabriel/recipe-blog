@@ -216,3 +216,61 @@ footer{
     margin-bottom: 24px;
     color: var(--cor4);
 }
+
+@media screen and (max-width: 600px) {
+    .section-intro {
+        margin-bottom: 24px;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .section-intro-text h1{
+        font-size: 24px;
+    }
+    .section-intro-text-img p{
+        font-size: 12px;
+        max-width: 320px;
+    }
+    .section-ingredients{
+        flex-direction: column-reverse;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .section-ingredients-prepar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 15px;
+        box-shadow: none;
+        margin-left: 0;
+        margin: 0 10px;
+        border-radius: none;
+        height: auto;
+        width: auto;
+    }
+    .section-ingredients-prepar :nth-child(1){
+        grid-column: 1 / 4;
+        grid-row: 1 ;
+        display: flex;
+    }
+    .icon-prepar{
+        margin: 0;
+        padding: 3%;
+    }
+    .section-ingredients-list h2{
+        font-size: 18px;
+    }
+    .section-ingredients-list-cheese h3{
+        font-size: 16px;
+    }
+    .section-ingredients-list p{
+        font-size: 14px;
+    }
+    .section-instructions {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .section-instructions h2{
+        font-size: 18px;
+        margin-top: 3%;
+    }
+}
