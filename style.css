@@ -254,10 +254,15 @@ footer{
     }
     .icon-prepar{
         margin: 0;
-        padding: 3%;
+        padding: 0;
+    }
+    .material-symbols-outlined {
+        margin-right: 1%;
     }
     .section-ingredients-list h2{
         font-size: 18px;
+        margin-top: 5%;
+        margin-bottom: 3%;
     }
     .section-ingredients-list-cheese h3{
         font-size: 16px;
