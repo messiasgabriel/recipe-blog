@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://messiasgabriel.github.io/creative-crew/"  target="blank">
+    <a href="https://messiasgabriel.github.io/recipe-blog/"  target="blank">
       Demo
     </a>
     <span> | </span>
@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot]()
+![screenshot](https://raw.githubusercontent.com/messiasgabriel/recipe-blog/main/Screenshot.png)
 
 This is a Challenge from https://devchallenges.io/ <br>
 I'm learning web development. So I was able to test and improve my skills with this challenge ;)
