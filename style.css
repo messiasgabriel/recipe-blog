@@ -30,9 +30,9 @@ p{
 
 .section-intro{
     max-width: 970px;
-    margin: 0 auto;
-    margin-top: 52px;
-    margin-bottom: 48px;
+    margin: 2% auto 1% auto;
+    padding: 1%;
+    
 }
 .section-intro-text{
     display: flex;
@@ -67,6 +67,7 @@ p{
 .section-ingredients {
     max-width: 970px;
     margin: 0 auto;
+    padding: 1%;
     display: flex;
     justify-content: flex-start;
     color: var(--cor2);
@@ -98,14 +99,11 @@ p{
     margin-bottom: 31px;
     margin-top: 38px;
 }
-.section-ingredients-list .list li::before {
-    content: "";
-    display: block;
+input{
     min-width: 21px;
+    width: 21px;
     height: 21px;
-    border: 1px solid #828282;
-    border-radius: 4px;
-    margin-right: 17px;
+    margin-right: 1%;
 }
 .list li {
     display: flex;
@@ -165,6 +163,7 @@ p{
 .section-instructions{
     max-width: 970px;
     margin: 0 auto;
+    padding: 1%;
     display: flex;
     flex-direction: column;
 }
