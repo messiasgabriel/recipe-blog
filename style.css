@@ -50,7 +50,8 @@ p{
     font-size: 14px;
     font-weight: 500;
     font-style: italic;
-    margin-left: 12px;
+    margin-left: 1%;
+    max-width: 592px;
 }
 .section-intro-text-img {
     display: flex;
